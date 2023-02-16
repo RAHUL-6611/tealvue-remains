@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .desktop-screen-nf {
+    height: calc(100vh - theme('spacing.dFooterH') - theme('spacing.dNavH'));
+  }
+
+  .desktop-screen-n {
+    height: calc(100vh - theme('spacing.dNavH'));
+  }
+
+  .desktop-min-screen-n {
+    min-height: calc(100vh - theme('spacing.dNavH') - theme('spacing.dNavH'));
+  }
+
+  .desktop-cart-h {
+    max-height: calc(100vh - theme('spacing.dNavH') - 100px);
+  }
+
+  .desktop-checkout-cart-h {
+    max-height: calc(100vh - theme('spacing.dNavH') - 60vh);
+  }
+
+  .desktop-checkout-cart-h-2xl {
+    max-height: calc(100vh - theme('spacing.dNavH') - 80vh);
+  }
+
+  .mobile-checkout-cart-h {
+    max-height: calc(100vh - theme('spacing.dNavH') - 300px);
+  }
+
+  .mobile-screen-n {
+    height: calc(100vh - theme('spacing.mNavH'));
+  }
+
+  .mobile-screen-nc {
+    height: calc(100vh - theme('spacing.mNavH') - 45px);
+  }
+}

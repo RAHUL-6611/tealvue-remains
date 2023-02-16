@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .desktop-screen-nf {
+    height: calc(100vh - theme('spacing.dFooterH') - theme('spacing.dNavH'));
+  }
+
+  .desktop-screen-n {
+    height: calc(100vh - theme('spacing.dNavH'));
+  }
+
+  .desktop-min-screen-n {
+    min-height: calc(100vh - theme('spacing.dNavH') - theme('spacing.dNavH'));
+  }
+
+  .desktop-cart-h {
+    max-height: calc(100vh - theme('spacing.dNavH') - 100px);
+  }
+
+  .desktop-checkout-cart-h {
+    max-height: calc(100vh - theme('spacing.dNavH') - 60vh);
+  }
+
+  .desktop-checkout-cart-h-2xl {
+    max-height: calc(100vh - theme('spacing.dNavH') - 80vh);
+  }
+
+  .mobile-checkout-cart-h {
+    max-height: calc(100vh - theme('spacing.dNavH') - 300px);
+  }
+
+  .mobile-screen-n {
+    height: calc(100vh - theme('spacing.mNavH'));
+  }
+
+  .mobile-screen-nc {
+    height: calc(100vh - theme('spacing.mNavH') - 45px);
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .rounded-head {
+    -webkit-border-bottom-right-radius: 60px;
+    -webkit-border-bottom-left-radius: 60px;
+    -moz-border-radius-bottomright: 60px;
+    -moz-border-radius-bottomleft: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+
+  .shadow{
+    box-shadow: -1px -3px 10px 1px rgba(133,133,133,0.55);
+/* -webkit-box-shadow: -1px -3px 10px 1px rgba(133,133,133,0.85); */
+/* -moz-box-shadow: -1px -3px 10px 1px rgba(133,133,133,0.85); */
+  }
+}

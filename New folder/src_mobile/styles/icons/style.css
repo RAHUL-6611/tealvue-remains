@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?15clwn');
+  src:  url('fonts/icomoon.eot?15clwn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?15clwn') format('truetype'),
+    url('fonts/icomoon.woff?15clwn') format('woff'),
+    url('fonts/icomoon.svg?15clwn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-vimeo:before {
+  content: "\e924";
+  color: #1ab7ea;
+}
+.icon-twitter:before {
+  content: "\e923";
+  color: #1da1f2;
+}
+.icon-arrow-right:before {
+  content: "\e900";
+}
+.icon-cancel-circle:before {
+  content: "\e901";
+}
+.icon-dashboard:before {
+  content: "\e904";
+}
+.icon-globle-indices:before {
+  content: "\e90b";
+}
+.icon-logout:before {
+  content: "\e90c";
+}
+.icon-search:before {
+  content: "\e913";
+}
+.icon-vix:before {
+  content: "\e915";
+}
+.icon-watchlist:before {
+  content: "\e928";
+}
+.icon-arrow-up:before {
+  content: "\e918";
+  color: #4da75b;
+}
+.icon-menu:before {
+  content: "\e919";
+  color: #838383;
+}
+.icon-trash-2-outline:before {
+  content: "\e91d";
+  color: #838383;
+}
+.icon-delete:before {
+  content: "\e927";
+  color: #c2cfe0;
+}
+.icon-add:before {
+  content: "\e921";
+  color: #464255;
+}
+.icon-home:before {
+  content: "\e929";
+  color: #aba4a4;
+}
+.icon-expand-outline:before {
+  content: "\e92a";
+  color: #d0d1d2;
+}
+.icon-cloud-download:before {
+  content: "\e92b";
+  color: #fff;
+}
+.icon-Intersect-design:before {
+  content: "\e92c";
+  color: #9dacb4;
+}
+.icon-right-arrow-fill:before {
+  content: "\e92d";
+}
+.icon-play-circle:before {
+  content: "\e92e";
+  color: #898989;
+}
+.icon-corner-down:before {
+  content: "\e93b";
+}
+.icon-alert-circle:before {
+  content: "\e93a";
+}
+.icon-shopping-cart-outline:before {
+  content: "\e938";
+  color: #9dacb4;
+}
+.icon-bell-outline:before {
+  content: "\e937";
+  color: #9dacb4;
+}
+.icon-settings:before {
+  content: "\e935";
+}
+.icon-funnel-outline:before {
+  content: "\e934";
+  color: #9dacb4;
+}
+.icon-calendar:before {
+  content: "\e933";
+  color: #9dacb4;
+}
+.icon-trending-up-outline:before {
+  content: "\e932";
+  color: #898989;
+}
+.icon-bookmark:before {
+  content: "\e931";
+  color: #898989;
+}
+.icon-pricetags-outline:before {
+  content: "\e930";
+  color: #898989;
+}
+.icon-hourglass:before {
+  content: "\e92f";
+  color: #898989;
+}
+.icon-intersect:before {
+  content: "\e93d";
+  color: #e4e4e4;
+}
+.icon-future:before {
+  content: "\e93e";
+  color: #898989;
+}
+.icon-double-circle .path1:before {
+  content: "\e93f";
+  color: rgb(15, 194, 192);
+}
+.icon-double-circle .path2:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-double-circle .path3:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-double-circle .path4:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(15, 194, 192);
+  opacity: 0.3;
+}
+.icon-speed:before {
+  content: "\e940";
+  color: #898989;
+}
+.icon-options:before {
+  content: "\e941";
+  color: #898989;
+}
+.icon-strategy:before {
+  content: "\e943";
+  color: #898989;
+}
+.icon-advice:before {
+  content: "\e942";
+  color: #898989;
+}
+.icon-chat:before {
+  content: "\e944";
+  color: #898989;
+}
+.icon-trading:before {
+  content: "\e945";
+  color: #898989;
+}
+.icon-open-interest1:before {
+  content: "\e946";
+  color: #898989;
+}
+.icon-chart:before {
+  content: "\e947";
+  color: #898989;
+}
+.icon-dark-mode:before {
+  content: "\e94b";
+  color: #9dacb4;
+}
+.icon-trending-up-outline1:before {
+  content: "\e926";
+  color: #898989;
+}
+.icon-bookmark1:before {
+  content: "\e939";
+  color: #898989;
+}
+.icon-pricetags-outline1:before {
+  content: "\e94f";
+  color: #898989;
+}
+.icon-hourglass1:before {
+  content: "\e950";
+  color: #898989;
+}
+.icon-facebook:before {
+  content: "\e90f";
+}
+.icon-social:before {
+  content: "\e90f";
+}
+.icon-share-2:before {
+  content: "\e920";
+}
+.icon-map-pin:before {
+  content: "\e91e";
+}
+.icon-phone:before {
+  content: "\e91f";
+}
+.icon-arrow_right:before {
+  content: "\e948";
+}
+.icon-arrow:before {
+  content: "\e949";
+}
+.icon-pinterest:before {
+  content: "\e922";
+}
+.icon-location-pin:before {
+  content: "\e91c";
+}
+.icon-checkmark:before {
+  content: "\e903";
+}
+.icon-dots-three:before {
+  content: "\e94a";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-facebook1:before {
+  content: "\e93c";
+}
+.icon-trash:before {
+  content: "\e925";
+}
+.icon-apple1:before {
+  content: "\e936";
+}
+.icon-instagram:before {
+  content: "\e917";
+}
+.icon-whatsapp:before {
+  content: "\e91a";
+}
+.icon-diamond:before {
+  content: "\e91b";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
